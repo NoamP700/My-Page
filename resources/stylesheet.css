@@ -1,0 +1,214 @@
+#header {
+	color: white;
+}
+body {
+	background: url("./Images/background1.jpg"); background-size: 100% 100%;
+}
+.main {
+	color: white;
+	font-size: 2.6vw;
+}
+#actual-body{
+	position: relative;
+}
+#kot {
+	text-shadow: 0 0 50px rgba(255,165,0,0.4);
+	margin: 0;
+	padding: 5;
+	font-size: 6.5vw;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	display: flex;
+	justify-content: center;
+	letter-spacing: 0px;
+	overflow: hidden;
+	background: linear-gradient(90deg, orange, red, orange);
+	background-repeat: infinite;
+	animation: animate 4s linear infinite;
+	background-size: 90%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: -900%;
+	}
+	100%
+	{
+		background=position: 900%;
+	}
+}
+/* FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON FIRST BUTTON */
+#b1{
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+}
+#bu1 {
+	font-size: 1.82vw;
+	position: absolute;
+	top: 165%;
+	left: 5%;
+	width: 10.4vw;
+	height: 3.12vw;
+	text-align: center;
+	line-height: 3.12vw;
+	font-family: sans-serif;
+	  -webkit-text-stroke: 0px black;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, yellow, black, yellow);
+	background-size: 300%;
+	border-radius: 30px;
+	z-index: 1;
+}
+.b1:hover
+{
+	animation: mya 8s linear infinite;
+}
+@keyframes mya
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+.b1:before
+{
+	content: '';
+	position: absolute;
+	top: -0.26vw;
+	left: -0.26vw;
+	right: -0.26vw;
+	bottom: -0.26vw;
+	z-index: -1;
+	background: linear-gradient(90deg, orange, yellow, orange, yellow, orange);
+	background-size: 400%;
+	border-radius: 2.08vw;
+	opacity: 0;
+	transition: 0.5s;
+}
+.b1:hover:before{
+		filter: blur(0.85vw);
+		opacity: 1;
+		animation: animate 8s linear infinite;
+}
+/* SECOND BUTTON SECOND BUTTON SECOND BUTTON SECOND BUTTON SECOND BUTTON SECOND BUTTON SECOND BUTTON SECOND BUTTON */
+#b2{
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+}
+#bu2 {
+	font-size: 1.82vw;
+	position: absolute;
+	top: 165%;
+	left: 19%;
+	width: 10.4vw;
+	height: 3.12vw;
+	text-align: center;
+	line-height: 3.12vw;
+	font-family: sans-serif;
+	  -webkit-text-stroke: 0px black;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, yellow, black, yellow);
+	background-size: 300%;
+	border-radius: 30px;
+	z-index: 1;
+}
+.b2:hover
+{
+	animation: mya 8s linear infinite;
+}
+@keyframes mya
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+.b2:before
+{
+	content: '';
+	position: absolute;
+	top: -0.26vw;
+	left: -0.26vw;
+	right: -0.26vw;
+	bottom: -0.26vw;
+	z-index: -1;
+	background: linear-gradient(90deg, orange, yellow, orange, yellow, orange);
+	background-size: 400%;
+	border-radius: 2.08vw;
+	opacity: 0;
+	transition: 0.5s;
+}
+.b2:hover:before{
+		filter: blur(0.85vw);
+		opacity: 1;
+		animation: animate 8s linear infinite;
+}
+/* THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON THIRD BUTTON */
+#b3{
+	text-decoration: none;
+	color: rgba(0,0,0,0.8);
+}
+#bu3 {
+	font-size: 1.82vw;
+	position: absolute;
+	top: 165%;
+	left: 33%;
+	width: 10.4vw;
+	height: 3.12vw;
+	text-align: center;
+	line-height: 3.12vw;
+	font-family: sans-serif;
+	-webkit-text-stroke: 0px black;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, yellow, black, yellow);
+	background-size: 300%;
+	border-radius: 30px;
+	z-index: 1;
+}
+.b3:hover
+{
+	animation: mya 8s linear infinite;
+}
+@keyframes mya
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+.b3:before
+{
+	content: '';
+	position: absolute;
+	top: -0.26vw;
+	left: -0.26vw;
+	right: -0.26vw;
+	bottom: -0.26vw;
+	z-index: -1;
+	background: linear-gradient(90deg, orange, yellow, orange, yellow, orange);
+	background-size: 400%;
+	border-radius: 2.08vw;
+	opacity: 0;
+	transition: 0.5s;
+}
+.b3:hover:before{
+		filter: blur(0.85vw);
+		opacity: 1;
+		animation: animate 8s linear infinite;
+}
