@@ -212,3 +212,22 @@ body {
 		opacity: 1;
 		animation: animate 8s linear infinite;
 }
+#footer {
+	position: fixed;
+	margin: 0;
+	color: white;
+	font-size: 2.6vw;
+	bottom: 0;
+	right: 10vw;
+	text-decoration: none;
+}
+#footer:hover {
+	text-shadow: 0.1041666vw 0.1041666vw 3px green, -0.1041666vw -0.1041666vw 3px green, 0.1041666vw -0.1041666vw 3px green, -0.1041666vw 0.1041666vw 3px green;
+}
+.Arrow {
+	position: fixed;
+	width: 15.625vw;
+	height: 15.625vw;
+	bottom: 2vw;
+	right: 4vw;
+}

@@ -1,0 +1,30 @@
+body {
+  background: url("./Images/background1.jpg"); background-size: 100% 100%;
+}
+#kot {
+  color: white;
+  font-size: 6.5vw;
+  text-align: center;
+  margin-right: 7.03125vw;
+}
+#BackB {
+  margin-top: 10;
+  margin-left: 10;
+}
+.backB:hover {
+    box-shadow: 0px 0px 1.5625vw #fff;
+    border-radius: 4.16vw;
+}
+.BackB{
+  width: 7.03125vw;
+  height: 7.03125vw;
+}
+#nothing {
+  color:white;
+  font-size: 3.90625vw;
+  text-align: center;
+  padding-top: 20vh;
+  color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

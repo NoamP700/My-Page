@@ -21,8 +21,10 @@ body {
 }
 #nothing {
   color:white;
-  font-size: 75px;
+  font-size: 3.90625vw;
   text-align: center;
   padding-top: 20vh;
   color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
