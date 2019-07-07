@@ -19,3 +19,10 @@ body {
   width: 7.03125vw;
   height: 7.03125vw;
 }
+#nothing {
+  color:white;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 20vh;
+  color: red;
+}
